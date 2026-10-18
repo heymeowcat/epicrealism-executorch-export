@@ -1,0 +1,25 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# --- OS / editor ---
+.DS_Store
+.idea/
+.vscode/
+
+# --- Maintainer-local files (not part of the public repo) ---
+HANDOFF.md
+upload_to_huggingface.sh
+
+# --- Upload staging directory (created by upload_to_huggingface.sh) ---
+release/
+
+# --- Model weights (fetched via ./download_epic.sh, not committed) ---
+models/
+
+# --- Exported binaries: 3,937.9 MB .pte is hosted on Hugging Face, not GitHub ---
+out/*.pte
+out/*.bin

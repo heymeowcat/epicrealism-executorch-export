@@ -1,0 +1,12 @@
+# Export & verification pipeline (Python 3.10+)
+# ExecuTorch: https://pytorch.org/executorch/ (v1.4.1+)
+torch>=2.5
+executorch>=1.4.1
+diffusers>=0.30
+transformers>=4.45
+safetensors>=0.4
+numpy>=1.26
+Pillow>=10.0
+
+# Hugging Face Hub utilities (hf upload / hf_hub_download; ships the `hf` CLI)
+huggingface_hub>=0.32
