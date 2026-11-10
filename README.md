@@ -12,10 +12,6 @@ library_name: executorch
 
 # epicrealism-512-executorch
 
-[![Hugging Face Model](https://img.shields.io/badge/Hugging%20Face-Model-ffcc44)](https://huggingface.co/heymeowcat/epicrealism-512-executorch)
-[![License: OpenRAIL++-M](https://img.shields.io/badge/License-CreativeML%20Open%20RAIL%2B%2B--M-blue.svg)](LICENSE)
-[![ExecuTorch](https://img.shields.io/badge/ExecuTorch-v1.4.1%2B-3069b0)](https://pytorch.org/executorch/)
-
 This repository hosts the **epicrealism-512** photorealistic portrait models exported for ExecuTorch and the [React Native ExecuTorch](https://www.npmjs.com/package/react-native-executorch) library as ExecuTorch `.pte` programs, ready to run on device.
 
 - **Upstream Base Model**: [emilianJR/epiCRealism (newEra)](https://huggingface.co/emilianJR/epiCRealism)
